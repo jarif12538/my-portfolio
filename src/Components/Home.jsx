@@ -39,7 +39,7 @@ function Home() {
 
         <h1>
           Jarif <br />
-          <span className="subtitle">Cybersecurity Enthusiast</span>
+          <span className="subtitle">Cybersecurity | SOC | Network Security</span>
         </h1>
 
         <p className="home-desc">

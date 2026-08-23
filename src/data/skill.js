@@ -58,9 +58,7 @@ const skillCategories = [
     skills: [
       { name: "Linux", proficiency: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
       { name: "GitHub", proficiency: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-      { name: "VS Code", proficiency: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
-      { name: "SIEM", proficiency: 60, icon: "/icons/siem.svg" }
-    ]
+      { name: "VS Code", proficiency: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" }]
   }
 ]
 
