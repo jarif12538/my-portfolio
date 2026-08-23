@@ -1,0 +1,42 @@
+.projects {
+  padding: 7rem 2rem 4rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  scroll-margin-top: 7rem;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-details-list {
+  margin-top: 3rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.project-detail--inline {
+  min-height: auto;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  scroll-margin-top: 7rem;
+}
+
+.project-detail--inline .project-detail-content {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding-top: 12rem;
+  }
+}

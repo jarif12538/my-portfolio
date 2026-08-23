@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <rect width="128" height="128" rx="24" fill="#0F172A"/>
+  <!-- SIEM Shield & Chart -->
+  <path d="M 64 18 L 102 34 V 66 C 102 90 64 110 64 110 C 64 110 26 90 26 66 V 34 Z" fill="none" stroke="#38BDF8" stroke-width="4"/>
+  <path d="M 44 76 L 56 60 L 70 70 L 84 48" stroke="#A855F7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="84" cy="48" r="4" fill="#38BDF8"/>
+  <circle cx="70" cy="70" r="3" fill="#A855F7"/>
+  <circle cx="56" cy="60" r="3" fill="#A855F7"/>
+  <circle cx="44" cy="76" r="3" fill="#A855F7"/>
+</svg>
