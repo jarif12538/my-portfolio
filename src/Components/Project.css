@@ -3,6 +3,14 @@
   max-width: 1100px;
   margin: 0 auto;
   scroll-margin-top: 7rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.projects.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .projects h2 {
