@@ -26,7 +26,6 @@ function Skill() {
                   <img src={skill.icon} alt={skill.name} className="skill-row-icon" />
                   <span>{skill.name}</span>
                 </div>
-                <span className="skill-percent">{skill.proficiency}%</span>
               </div>
             ))}
           </div>

@@ -105,25 +105,6 @@ function Contact() {
           <FaLinkedin />
         </a>
 
-        <a
-          href="https://profile.hackthebox.com/profile/019e2fa9-c27c-71b8-9568-347aa616a0ae?utm_medium=copy_url"
-          target="_blank"
-          rel="noreferrer"
-          className="icon-link"
-          aria-label="HackTheBox"
-        >
-          <SiHackthebox />
-        </a>
-
-        <a
-          href="https://tryhackme.com/p/hasanjarif12538"
-          target="_blank"
-          rel="noreferrer"
-          className="icon-link"
-          aria-label="TryHackMe"
-        >
-          <SiTryhackme />
-        </a>
 
       </div>
     </section>

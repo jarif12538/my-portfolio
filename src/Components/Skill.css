@@ -90,12 +90,6 @@
   object-fit: contain;
 }
 
-.skill-percent {
-  color: #f1f3f5;
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
 @media (max-width: 600px) {
   .skills {
     padding: 4rem 1rem;

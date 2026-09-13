@@ -4,9 +4,11 @@ const skillCategories = [
     title: "Security Tools",
     emoji: "🛡️",
     skills: [
-      { name: "Wazuh", proficiency: 92, icon: "/icons/wazuh.svg" },
-      { name: "Wireshark", proficiency: 95, icon: "/icons/wireshark.svg" },
-      { name: "Nmap", proficiency: 93, icon: "/icons/nmap.svg" }
+      { name: "Wazuh", icon: "/icons/wazuh.svg" },
+      { name: "Wireshark", icon: "/icons/wireshark.svg" },
+      { name: "Nmap", icon: "/icons/nmap.svg" },
+      { name: "Burp Suite", icon: "https://cdn.simpleicons.org/burpsuite" },
+      { name: "Metasploit", icon: "https://cdn.simpleicons.org/metasploit" },
     ]
   },
   {
@@ -14,12 +16,12 @@ const skillCategories = [
     title: "Programming Languages",
     emoji: "💻",
     skills: [
-      { name: "Python", proficiency: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-      { name: "JavaScript", proficiency: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-      { name: "C++", proficiency: 70, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-      { name: "Bash", proficiency: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
-      { name: "C", proficiency: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
-      { name: "dart", proficiency: 60, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" }
+      { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { name: "C++", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+      { name: "Bash", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
+      { name: "C", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
+      { name: "dart", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" }
     ]
   },
   {
@@ -27,8 +29,9 @@ const skillCategories = [
     title: "Markup/Styling Languages",
     emoji: "🎨",
     skills: [
-      { name: "HTML5", proficiency: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-      { name: "CSS3", proficiency: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" }
+      { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+      { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+      { name: "Tailwind CSS", icon: "https://cdn.simpleicons.org/tailwindcss" }
     ]
   },
   {
@@ -36,10 +39,10 @@ const skillCategories = [
     title: "Libraries/Frameworks",
     emoji: "⚙️",
     skills: [
-      { name: "React", proficiency: 79, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-      { name: "Node.js", proficiency: 70, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-      { name: "Express.js", proficiency: 60, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
-      { name: "Flutter", proficiency: 60, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" }
+      { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+      { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+      { name: "Express.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+      { name: "Flutter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" }
     ]
   },
   {
@@ -47,8 +50,8 @@ const skillCategories = [
     title: "Databases",
     emoji: "🗄️",
     skills: [
-      { name: "MySQL", proficiency: 65, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-      { name: "MongoDB", proficiency: 65, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" }
+      { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+      { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" }
     ]
   },
   {
@@ -56,9 +59,9 @@ const skillCategories = [
     title: "Tools & Platforms",
     emoji: "🔧",
     skills: [
-      { name: "Linux", proficiency: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
-      { name: "GitHub", proficiency: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-      { name: "VS Code", proficiency: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" }]
+      { name: "Linux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
+      { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+      { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" }]
   }
 ]
 
