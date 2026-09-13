@@ -117,6 +117,19 @@ function Home() {
             </div>
 
             <div className="resume-modal-body">
+              <div className="resume-mobile-fallback">
+                <FaFilePdf className="resume-mobile-icon" />
+                <p>Open the resume in your browser to view it.</p>
+                <a
+                  href={resumeUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="modal-open-btn"
+                >
+                  <FaFilePdf />
+                  <span>Open Resume</span>
+                </a>
+              </div>
               <iframe
                 src={`${resumeUrl}#toolbar=1`}
                 title="Hasan Jarif Resume"
